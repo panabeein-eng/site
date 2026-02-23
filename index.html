@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JK Enterprises Pehowa | Tools Shop & Solar Panel Sales</title>
+  <meta name="description" content="JK Enterprises Pehowa is a trusted tools shop offering quality hardware and solar panel sales. Explore completed projects, customer reviews, and our online product catalog." />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <link rel="canonical" href="https://jkenterprisespehowa.example/" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="JK Enterprises Pehowa | Tools & Solar Solutions" />
+  <meta property="og:description" content="Tools shop and solar panel sales in Pehowa. View project history, reviews, and shop products online." />
+  <meta property="og:url" content="https://jkenterprisespehowa.example/" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="JK Enterprises Pehowa" />
+  <meta name="twitter:description" content="Tools shop and solar panel sales with project showcases and an online catalog." />
+
+  <link rel="stylesheet" href="styles.css" />
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "JK Enterprises Pehowa",
+      "description": "Tools shop and solar panel sales in Pehowa",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Pehowa",
+        "addressRegion": "Haryana",
+        "addressCountry": "IN"
+      },
+      "areaServed": "Pehowa and nearby regions",
+      "makesOffer": [
+        {"@type": "Offer", "itemOffered": {"@type": "Product", "name": "Tools & Hardware"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Product", "name": "Solar Panels"}}
+      ]
+    }
+  </script>
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav">
+      <a href="#" class="brand">JK Enterprises Pehowa</a>
+      <div class="nav-links">
+        <a href="#history">History & Projects</a>
+        <a href="#reviews">Google Reviews</a>
+        <a href="#shop">Online Shop</a>
+        <a href="#blog">Product Blog</a>
+      </div>
+    </nav>
+
+    <div class="hero-content">
+      <p class="eyebrow">Tools Shop + Solar Panel Sales</p>
+      <h1>Reliable Tools and Solar Solutions for Pehowa</h1>
+      <p>
+        JK Enterprises Pehowa is a trusted local business serving customers with high-quality
+        tools, hardware essentials, and solar panel systems. Browse our completed projects,
+        real customer feedback, and live product catalog.
+      </p>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="#shop">Browse Products</a>
+        <a class="btn btn-secondary" href="#history">View Projects</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="history" class="section">
+      <div class="section-heading">
+        <h2>Our History & Completed Projects</h2>
+        <p>
+          Over the years, JK Enterprises has supported homes, shops, farms, and small industries
+          with durable tools and practical solar solutions.
+        </p>
+      </div>
+
+      <div class="project-grid">
+        <article class="card">
+          <h3>Residential Solar Installations</h3>
+          <p>Installed rooftop solar systems for homeowners to reduce electricity bills and improve energy reliability.</p>
+          <ul>
+            <li>Site assessment and panel planning</li>
+            <li>Certified installation support</li>
+            <li>After-sales service guidance</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>Farm & Irrigation Tool Supply</h3>
+          <p>Supplied heavy-duty tools and equipment for farming, maintenance, and daily field operations.</p>
+          <ul>
+            <li>Power tools and hand tools</li>
+            <li>Pipes, fittings, and support hardware</li>
+            <li>Bulk purchase availability</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>Retail & Workshop Support</h3>
+          <p>Supported mechanics and workshops with reliable toolkits, consumables, and electrical components.</p>
+          <ul>
+            <li>Branded tool options</li>
+            <li>Affordable local pricing</li>
+            <li>Quick stock replenishment</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="reviews" class="section section-alt">
+      <div class="section-heading">
+        <h2>Customer Reviews from Google</h2>
+        <p>What local customers say about JK Enterprises Pehowa.</p>
+      </div>
+
+      <div class="reviews" id="reviewList">
+        <article class="review-card">
+          <p>“Very genuine owner and quality products. Our solar setup works great.”</p>
+          <strong>- Rajesh Kumar</strong>
+        </article>
+        <article class="review-card">
+          <p>“Best tools shop in Pehowa. Good rates and always helpful.”</p>
+          <strong>- Sunita Arora</strong>
+        </article>
+        <article class="review-card">
+          <p>“We purchased farm tools and got excellent guidance.”</p>
+          <strong>- Manoj Singh</strong>
+        </article>
+      </div>
+
+      <p class="inline-link">
+        <a href="https://maps.google.com" target="_blank" rel="noopener noreferrer">View all reviews on Google Maps</a>
+      </p>
+    </section>
+
+    <section id="shop" class="section">
+      <div class="section-heading">
+        <h2>Online Shop (Google Sheet Powered)</h2>
+        <p>
+          Product list below can be connected to a published Google Sheet CSV.
+          Keep columns as: <code>name,category,price,image,description</code>.
+        </p>
+      </div>
+
+      <div class="shop-toolbar">
+        <input type="search" id="searchInput" placeholder="Search tools, solar panels, accessories..." aria-label="Search products" />
+        <select id="categoryFilter" aria-label="Filter by category">
+          <option value="all">All categories</option>
+        </select>
+      </div>
+
+      <div id="productGrid" class="product-grid" aria-live="polite"></div>
+      <p id="shopStatus" class="status-text"></p>
+    </section>
+
+    <section id="blog" class="section section-alt">
+      <div class="section-heading">
+        <h2>Product Blog & Buying Guides</h2>
+        <p>Helpful posts related to tools, solar panels, usage tips, and maintenance for each item we sell.</p>
+      </div>
+
+      <div id="blogList" class="blog-grid" aria-live="polite"></div>
+      <p id="blogStatus" class="status-text"></p>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p><strong>JK Enterprises Pehowa</strong> · Tools Shop · Solar Panel Sales</p>
+    <p>Made crawler-friendly for Google, Bing, and AI discovery.</p>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
